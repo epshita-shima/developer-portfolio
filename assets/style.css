@@ -1,3 +1,40 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
 h1{
-    color: red;
+    font-size: 45px;
+}
+h1 span{
+    font-size: 50px;
+    color: rgb(255, 102, 0);
+    font-weight: 600;
+}
+section{
+    display: flex;
+}
+.half-width p{
+    text-align: justify;
+    color: rgba(78, 76, 76, 0.911);
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 90%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    color: white;
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.top-banner{
+    background-image: url(./image/top-banner.png);
+    background-repeat: no-repeat;
+
 }
